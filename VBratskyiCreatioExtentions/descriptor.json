@@ -3,9 +3,15 @@
     "UId": "b743ccf8-921c-df6b-97c8-5a3890890eec",
     "Name": "VBratskyiCreatioExtentions",
     "Type": 1,
-    "ModifiedOnUtc": "\/Date(1772013304000)\/",
+    "ModifiedOnUtc": "\/Date(1772018021000)\/",
     "Maintainer": "Creatio",
     "ProjectPath": "Files/VBratskyiCreatioExtentions.csproj",
-    "DependsOn": []
+    "DependsOn": [
+      {
+        "UId": "06d9ef10-51d8-122c-8933-9212e84236c9",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtBase"
+      }
+    ]
   }
 }
