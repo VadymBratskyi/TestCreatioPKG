@@ -329,6 +329,7 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/VBratskyiCreatioExtentions/Schemas/CrtVwContactAgeDays/CrtVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/VBratskyiCreatioExtentions/Schemas/CrtVwContactAgeDays/CrtVwContactAgeDays.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/VBratskyiCreatioExtentions/Schemas/RealtyTypeClassic/RealtyTypeClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/VBratskyiCreatioExtentions/Schemas/RealtyTypeClassic/RealtyTypeClassic.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
