@@ -1,0 +1,11 @@
+﻿{
+  "Descriptor": {
+    "UId": "b743ccf8-921c-df6b-97c8-5a3890890eec",
+    "Name": "VBratskyiCreatioExtentions",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1772013304000)\/",
+    "Maintainer": "Creatio",
+    "ProjectPath": "Files/VBratskyiCreatioExtentions.csproj",
+    "DependsOn": []
+  }
+}

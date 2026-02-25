@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/VBratskyiCreatioExtentions/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/VBratskyiCreatioExtentions/Data/**" />
+		<Compile Remove="$(PkgPath)/VBratskyiCreatioExtentions/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/VBratskyiCreatioExtentions/Schemas\**" />
+		<Compile Remove="$(PkgPath)/VBratskyiCreatioExtentions/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/VBratskyiCreatioExtentions/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/VBratskyiCreatioExtentions/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/VBratskyiCreatioExtentions/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/VBratskyiCreatioExtentions/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/VBratskyiCreatioExtentions/Resources/**" />
+		<None Remove="$(PkgPath)/VBratskyiCreatioExtentions/Assemblies/**" />
+		<None Remove="$(PkgPath)/VBratskyiCreatioExtentions/Data/**" />
+		<None Remove="$(PkgPath)/VBratskyiCreatioExtentions/SqlScripts/**" />
+		<None Remove="$(PkgPath)/VBratskyiCreatioExtentions/Schemas/**" />
+		<None Remove="$(PkgPath)/VBratskyiCreatioExtentions/Resources/**" />
+  </ItemGroup>
+</Project>
