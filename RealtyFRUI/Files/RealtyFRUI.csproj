@@ -330,6 +330,9 @@
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
 		<Compile Remove="$(RelativePkgFolderPath)/RealtyFRUI/Schemas/RealtyFRUI/RealtyFRUI.cs" Condition="Exists('$(RelativePkgFolderPath)/RealtyFRUI/Schemas/RealtyFRUI/RealtyFRUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/RealtyFRUI/Schemas/RealtyOfferTypeFRUI/RealtyOfferTypeFRUI.cs" Condition="Exists('$(RelativePkgFolderPath)/RealtyFRUI/Schemas/RealtyOfferTypeFRUI/RealtyOfferTypeFRUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/RealtyFRUI/Schemas/RealtyTypeFRUI/RealtyTypeFRUI.cs" Condition="Exists('$(RelativePkgFolderPath)/RealtyFRUI/Schemas/RealtyTypeFRUI/RealtyTypeFRUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/RealtyFRUI/Schemas/RealtyVisitFRUI/RealtyVisitFRUI.cs" Condition="Exists('$(RelativePkgFolderPath)/RealtyFRUI/Schemas/RealtyVisitFRUI/RealtyVisitFRUI.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">

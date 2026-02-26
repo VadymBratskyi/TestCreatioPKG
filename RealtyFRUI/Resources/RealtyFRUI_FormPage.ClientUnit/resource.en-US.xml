@@ -4,6 +4,13 @@
 		<Items>
 			<Item Name="Caption" Value="Realty FRUI form page" />
 			<Item Name="LocalizableStrings.Button_wsyfwha_caption.Value" Value="Click" />
+			<Item Name="LocalizableStrings.ExpansionPanel_imnl4vn_title.Value" Value="RealtyVisitFRUI" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_k4gs3on_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_ibmubf4_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_auerc5i_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_6fsmkw5_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_jkuv3ql_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_jm9grex_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.addRecord_h1kjq7j_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_mb85th1_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_xb9tixa_caption.Value" Value="Add new" />

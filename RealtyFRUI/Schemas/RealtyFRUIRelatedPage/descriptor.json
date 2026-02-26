@@ -4,6 +4,7 @@
     "Name": "RealtyFRUIRelatedPage",
     "ModifiedOnUtc": "\/Date(1772104209000)\/",
     "ManagerName": "AddonSchemaManager",
-    "Caption": "Realty FRUI (Page settings)"
+    "Caption": "Realty FRUI (Page settings)",
+    "DependsOn": []
   }
 }
