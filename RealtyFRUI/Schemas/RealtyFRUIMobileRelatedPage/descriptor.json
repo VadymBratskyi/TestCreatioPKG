@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d0d44f3e-2ae2-44e2-8240-37210814e90b",
+    "Name": "RealtyFRUIMobileRelatedPage",
+    "ModifiedOnUtc": "\/Date(1772103176000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Realty FRUI (Mobile page settings)",
+    "DependsOn": []
+  }
+}

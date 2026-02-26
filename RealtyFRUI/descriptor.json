@@ -1,0 +1,18 @@
+﻿{
+  "Descriptor": {
+    "UId": "4fe00449-aae7-425a-9d20-30699c635721",
+    "Name": "RealtyFRUI",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1731959136000)\/",
+    "Maintainer": "Creatio",
+    "ProjectPath": "Files/RealtyFRUI.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      }
+    ]
+  }
+}

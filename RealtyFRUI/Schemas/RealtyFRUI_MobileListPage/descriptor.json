@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "03d9cf6f-3e35-4e9e-86f7-1bad0819281d",
+    "Name": "RealtyFRUI_MobileListPage",
+    "ModifiedOnUtc": "\/Date(1772103176000)\/",
+    "Parent": {
+      "UId": "011e7dda-a763-4535-9b9a-e09eddd047be",
+      "Name": "BaseMobileListTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty FRUI mobile list page",
+    "DependsOn": []
+  }
+}

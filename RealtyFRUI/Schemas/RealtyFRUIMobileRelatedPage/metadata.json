@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "d0d44f3e-2ae2-44e2-8240-37210814e90b",
+      "A2": "RealtyFRUIMobileRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+      "AD2": "EntitySchemaManager",
+      "AD3": "MobileRelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "f2db7f72-f4bd-41fc-be0b-a042208b61a1",
+            "PageSchemaUId": "645838c1-c5bb-4fa4-92f5-198e89a7abc0",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}

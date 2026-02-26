@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "645838c1-c5bb-4fa4-92f5-198e89a7abc0",
+    "Name": "RealtyFRUI_MobileFormPage",
+    "ModifiedOnUtc": "\/Date(1772103176000)\/",
+    "Parent": {
+      "UId": "019c694a-1a3b-4812-b2e5-219b326061ae",
+      "Name": "MobilePageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Realty FRUI mobile form page",
+    "DependsOn": []
+  }
+}
