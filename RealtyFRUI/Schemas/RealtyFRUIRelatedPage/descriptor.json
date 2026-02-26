@@ -2,9 +2,8 @@
   "Descriptor": {
     "UId": "87a02211-17a2-4d05-8628-d6980ea5706b",
     "Name": "RealtyFRUIRelatedPage",
-    "ModifiedOnUtc": "\/Date(1772103176000)\/",
+    "ModifiedOnUtc": "\/Date(1772104209000)\/",
     "ManagerName": "AddonSchemaManager",
-    "Caption": "Realty FRUI (Page settings)",
-    "DependsOn": []
+    "Caption": "Realty FRUI (Page settings)"
   }
 }

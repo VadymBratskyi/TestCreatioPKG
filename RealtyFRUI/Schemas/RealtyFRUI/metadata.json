@@ -1,7 +1,7 @@
 = MetaData.Schema.UId "3cdc53c0-576c-443b-ad27-719798f7d89b"
 = MetaData.Schema.A2 "RealtyFRUI"
 = MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
-= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.B6 "4fe00449-aae7-425a-9d20-30699c635721"
 = MetaData.Schema.EG1.UId "35ed072d-b64b-48d9-a321-be185b27409b"
 = MetaData.Schema.EG1.A2 "RealtyFRUIEventsProcess"
 = MetaData.Schema.EG1.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
@@ -13,7 +13,6 @@
 = MetaData.Schema.EG1.BK37.A4 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
 = MetaData.Schema.EG1.BK3 []
 = MetaData.Schema.EG1.BK4 []
-+ MetaData.Schema.EG1.Labels []
 = MetaData.Schema.D8 "1bab9dcf-17d5-49f8-9536-8e0064f1dce0"
 + MetaData.Schema.D29 "null"
 + MetaData.Schema.D30 "null"
@@ -23,26 +22,144 @@
   "UId": "6482ee4c-aa47-4860-abb4-a45225aa3da8",
   "A2": "Name",
   "A3": "3cdc53c0-576c-443b-ad27-719798f7d89b",
-  "A4": "3cdc53c0-576c-443b-ad27-719798f7d89b", 
+  "A4": "3cdc53c0-576c-443b-ad27-719798f7d89b",
   "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
-  "E2": 1,
-  "E5": false
+  "E2": 1
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","6482ee4c-aa47-4860-abb4-a45225aa3da8"]
++ MetaData.Schema.D2 {
+  "UId": "8170472b-6a54-9fc7-3fbd-54a105869fcc",
+  "A2": "Number",
+  "A3": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A4": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A5": "a6f79b4f-a7bd-4ade-be03-e862fdf4f909",
+  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
+  "E5": false,
+  "E12": {
+    "FB1": 4,
+    "FB4": "R",
+    "FB5": 3
+  }
+}
++ MetaData.Schema.D2 {
+  "UId": "d84ab839-611f-a37c-869e-fcd42fd8f829",
+  "A2": "Comment",
+  "A3": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A4": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A5": "a6f79b4f-a7bd-4ade-be03-e862fdf4f909",
+  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
+  "E25": true
+}
++ MetaData.Schema.D2 {
+  "UId": "c87edc68-f50b-2ac8-85b1-7c9009995971",
+  "A2": "Manager",
+  "A3": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A4": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A5": "a6f79b4f-a7bd-4ade-be03-e862fdf4f909",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E20": true,
+  "E12": {
+    "FB1": 3,
+    "FB2": "4f367ca9-549b-4a1a-b64e-a40123f52ac0"
+  },
+  "E17": "ManagerId",
+  "E18": "ManagerName"
+}
++ MetaData.Schema.D2 {
+  "UId": "cc976bb4-f999-ea84-5ce7-cdae4628cf50",
+  "A2": "RealtyOffer",
+  "A3": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A4": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A5": "a6f79b4f-a7bd-4ade-be03-e862fdf4f909",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "7e400282-ec68-4561-9ebb-bf845258e2dc",
+  "E2": 1,
+  "E6": true,
+  "E20": true,
+  "E12": {
+    "FB1": 1,
+    "FB2": "98fb1dbe-5a79-441f-99e1-610ba68374e7"
+  },
+  "E17": "RealtyOfferId",
+  "E18": "RealtyOfferName"
+}
++ MetaData.Schema.D2 {
+  "UId": "b151906d-a652-7961-2ba5-7cb136a60dc3",
+  "A2": "Type",
+  "A3": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A4": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A5": "a6f79b4f-a7bd-4ade-be03-e862fdf4f909",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "363cea32-8813-4458-a4b7-e417a8e1b15a",
+  "E2": 1,
+  "E6": true,
+  "E20": true,
+  "E12": {
+    "FB1": 1,
+    "FB2": "22b95c51-739e-4265-a0c1-eee9a35da7a8"
+  },
+  "E17": "TypeId",
+  "E18": "TypeName"
+}
++ MetaData.Schema.D2 {
+  "UId": "6fdf7c9f-7628-5f60-c754-0ba36fec6717",
+  "A2": "AreaSQFT",
+  "A3": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A4": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A5": "a6f79b4f-a7bd-4ade-be03-e862fdf4f909",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
++ MetaData.Schema.D2 {
+  "UId": "6a54831b-518f-e079-ad00-d5042e75fa99",
+  "A2": "PriceUSD",
+  "A3": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A4": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A5": "a6f79b4f-a7bd-4ade-be03-e862fdf4f909",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
+~ MetaData.Schema.D2 [
+  "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+  "e80190a5-03b2-4095-90f7-a193a960adee",
+  "ebf6bb93-8aa6-4a01-900d-c6ea67affe21",
+  "9928edec-4272-425a-93bb-48743fee4b04",
+  "3015559e-cbc6-406a-88af-07f7930be832",
+  "3fabd836-6a53-4d8d-9069-6df88d9dae1e",
+  "6482ee4c-aa47-4860-abb4-a45225aa3da8",
+  "8170472b-6a54-9fc7-3fbd-54a105869fcc",
+  "d84ab839-611f-a37c-869e-fcd42fd8f829",
+  "c87edc68-f50b-2ac8-85b1-7c9009995971",
+  "cc976bb4-f999-ea84-5ce7-cdae4628cf50",
+  "b151906d-a652-7961-2ba5-7cb136a60dc3",
+  "6fdf7c9f-7628-5f60-c754-0ba36fec6717",
+  "6a54831b-518f-e079-ad00-d5042e75fa99"
+]
 = MetaData.Schema.D20.A2 "RealtyFRUIEvents"
++ MetaData.Schema.D20.FA1 false
++ MetaData.Schema.D20.FA2 false
++ MetaData.Schema.D20.FA3 false
+= MetaData.Schema.D20.FA4 false
+= MetaData.Schema.D20.FA5 false
+= MetaData.Schema.D20.FA6 false
+= MetaData.Schema.D20.FA7 false
++ MetaData.Schema.D20.FA8 false
++ MetaData.Schema.D20.FA9 false
++ MetaData.Schema.D20.FA10 false
+= MetaData.Schema.D20.FA11 false
+= MetaData.Schema.D20.FA12 false
++ MetaData.Schema.D20.FA16 false
++ MetaData.Schema.D20.FA13 false
++ MetaData.Schema.D20.FA14 false
+= MetaData.Schema.D20.FA15 false
++ MetaData.Schema.D20.FA17 false
+= MetaData.Schema.D36.A3 "3cdc53c0-576c-443b-ad27-719798f7d89b"
+= MetaData.Schema.D36.BS1 true
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30
 - MetaData.Schema.D1
 - MetaData.Schema.D20.A5
-- MetaData.Schema.D20.FA4
-- MetaData.Schema.D20.FA5
-- MetaData.Schema.D20.FA6
-- MetaData.Schema.D20.FA7
-- MetaData.Schema.D20.FA11
-- MetaData.Schema.D20.FA12
-- MetaData.Schema.D20.FA15
 + MetaData.Schema.B7 false
 + MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
 + MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false
