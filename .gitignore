@@ -530,6 +530,10 @@ ProductCoreMessagePublishers
 CrtCore
 DesignerTools
 CrtUIPlatform
+CrtC360InUiV2
+CrtCustomer360AI
+CrtCustomer360App
+CrtCustomer360Mobile
 
 .svn
 .vscode

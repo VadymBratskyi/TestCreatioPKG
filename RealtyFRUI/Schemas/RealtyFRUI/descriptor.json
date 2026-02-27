@@ -8,6 +8,7 @@
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Realty FRUI"
+    "Caption": "Realty FRUI",
+    "DependsOn": []
   }
 }
