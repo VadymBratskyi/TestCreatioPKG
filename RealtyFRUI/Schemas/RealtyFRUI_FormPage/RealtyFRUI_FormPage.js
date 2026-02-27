@@ -222,6 +222,28 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 			},
 			{
 				"operation": "insert",
+				"name": "CommissionUSD",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_CommissionUSD_f6n8q44",
+					"control": "$PDS_CommissionUSD_f6n8q44",
+					"readonly": true,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": ""
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
 				"name": "Type",
 				"values": {
 					"layoutConfig": {
@@ -380,6 +402,28 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 				"parentName": "Manager",
 				"propertyName": "listActions",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "CommissionPercent",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_RealtyOfferCommissionPercent_olme3zg",
+					"control": "$PDS_RealtyOfferCommissionPercent_olme3zg",
+					"readonly": true,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": ""
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -821,6 +865,16 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 					},
 					"GridDetail_173ysaf_PredefinedFilter": {
 						"value": null
+					},
+					"PDS_CommissionUSD_f6n8q44": {
+						"modelConfig": {
+							"path": "PDS.CommissionUSD"
+						}
+					},
+					"PDS_RealtyOfferCommissionPercent_olme3zg": {
+						"modelConfig": {
+							"path": "PDS.RealtyOfferCommissionPercent_olme3zg"
+						}
 					}
 				}
 			},
@@ -871,7 +925,13 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 					"PDS": {
 						"type": "crt.EntityDataSource",
 						"config": {
-							"entitySchemaName": "RealtyFRUI"
+							"entitySchemaName": "RealtyFRUI",
+							"attributes": {
+								"RealtyOfferCommissionPercent_olme3zg": {
+									"path": "RealtyOffer.CommissionPercent",
+									"type": "ForwardReference"
+								}
+							}
 						},
 						"scope": "page"
 					},
@@ -908,6 +968,19 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 				handler: async (request, next) => {
 					var area = await request?.$context.PDS_PriceUSD_ogyemaj;
 					Terrasoft.showInformation("Button works.." + area);
+					return next?.handler(request);
+				}
+			},
+			{
+				request: "crt.HandleViewModelAttributeChangeRequest",
+				handler: async (request, next) => {
+					if(request.attributeName === "PDS_PriceUSD_ogyemaj" ||
+					  request.attributeName === "PDS_RealtyOffer_fe0miww") {
+						var price = await request.$context.PDS_PriceUSD_ogyemaj;
+						var percent = await request.$context.PDS_RealtyOfferCommissionPercent_olme3zg;
+						var commission = price * percent / 100;
+						request.$context.PDS_CommissionUSD_f6n8q44 = commission;
+					  }
 					return next?.handler(request);
 				}
 			}

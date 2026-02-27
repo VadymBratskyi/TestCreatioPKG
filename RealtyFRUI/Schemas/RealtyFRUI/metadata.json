@@ -119,6 +119,14 @@
   "A5": "a6f79b4f-a7bd-4ade-be03-e862fdf4f909",
   "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
 }
++ MetaData.Schema.D2 {
+  "UId": "77281a31-d8fd-3310-2d52-6137606c9a81",
+  "A2": "CommissionUSD",
+  "A3": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A4": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "A5": "a6f79b4f-a7bd-4ade-be03-e862fdf4f909",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6"
+}
 ~ MetaData.Schema.D2 [
   "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
   "e80190a5-03b2-4095-90f7-a193a960adee",
@@ -133,7 +141,8 @@
   "cc976bb4-f999-ea84-5ce7-cdae4628cf50",
   "b151906d-a652-7961-2ba5-7cb136a60dc3",
   "6fdf7c9f-7628-5f60-c754-0ba36fec6717",
-  "6a54831b-518f-e079-ad00-d5042e75fa99"
+  "6a54831b-518f-e079-ad00-d5042e75fa99",
+  "77281a31-d8fd-3310-2d52-6137606c9a81"
 ]
 = MetaData.Schema.D20.A2 "RealtyFRUIEvents"
 + MetaData.Schema.D20.FA1 false

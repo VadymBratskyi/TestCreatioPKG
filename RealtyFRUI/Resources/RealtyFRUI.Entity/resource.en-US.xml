@@ -5,6 +5,7 @@
 			<Item Name="Caption" Value="Realty FRUI" />
 			<Item Name="Columns.AreaSQFT.Caption" Value="Area, sqft" />
 			<Item Name="Columns.Comment.Caption" Value="Comment" />
+			<Item Name="Columns.CommissionUSD.Caption" Value="Commission, USD" />
 			<Item Name="Columns.Manager.Caption" Value="Manager" />
 			<Item Name="Columns.Name.Caption" Value="Name" />
 			<Item Name="Columns.Number.Caption" Value="Number" />
