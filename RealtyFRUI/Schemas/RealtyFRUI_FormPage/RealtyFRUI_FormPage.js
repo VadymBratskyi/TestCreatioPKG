@@ -729,17 +729,35 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 					"Name": {
 						"modelConfig": {
 							"path": "PDS.Name"
-						}
+						}						
 					},
 					"PDS_PriceUSD_ogyemaj": {
 						"modelConfig": {
 							"path": "PDS.PriceUSD"
-						}
+						},
+						"validators": {
+		                    "MyValidator": {
+		                        "type": "crt.MyValidator",
+		                        "params": {
+		                            "minValue": 30,
+		                            "message": "Price can't be less than 30.0"
+		                        }
+		                    }
+		                }
 					},
 					"PDS_AreaSQFT_0c711jy": {
 						"modelConfig": {
 							"path": "PDS.AreaSQFT"
-						}
+						},
+						"validators": {
+		                    "MyValidator": {
+		                        "type": "crt.MyValidator",
+		                        "params": {
+		                            "minValue": 10,
+		                            "message": "Area can't be less than 10.0"
+		                        }
+		                    }
+		                }
 					},
 					"PDS_Column10_r9v0e3x": {
 						"modelConfig": {
@@ -986,6 +1004,34 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 			}
 		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
-		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
+		validators: /**SCHEMA_VALIDATORS*/{
+			"crt.MyValidator": {
+				validator: function(config) {
+					return function(control) {
+						var result = null;
+						let value = control.value;
+						let minValue = config.minValue;
+						let valueIsCorrect = value >= minValue;
+						if(!valueIsCorrect) {
+							result = {
+								"crt.MyValidator": {
+									message: config.message
+								}
+							};
+						}
+						return result;
+					};
+				},
+				params: [
+					{
+						name: "minValue"
+					},
+					{
+						name: "message"
+					}
+				],
+				async: false
+			}
+		}/**SCHEMA_VALIDATORS*/
 	};
 });
