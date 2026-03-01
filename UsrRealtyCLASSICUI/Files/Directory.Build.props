@@ -1,0 +1,12 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUI/UsrRealtyCLASSICUI.cs" Condition="Exists('$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUI/UsrRealtyCLASSICUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUIFile/UsrRealtyCLASSICUIFile.cs" Condition="Exists('$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUIFile/UsrRealtyCLASSICUIFile.cs')" />
+		<Compile Include="$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUIFolder/UsrRealtyCLASSICUIFolder.cs" Condition="Exists('$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUIFolder/UsrRealtyCLASSICUIFolder.cs')" />
+		<Compile Include="$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUIInFolder/UsrRealtyCLASSICUIInFolder.cs" Condition="Exists('$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUIInFolder/UsrRealtyCLASSICUIInFolder.cs')" />
+		<Compile Include="$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUIInTag/UsrRealtyCLASSICUIInTag.cs" Condition="Exists('$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUIInTag/UsrRealtyCLASSICUIInTag.cs')" />
+		<Compile Include="$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUITag/UsrRealtyCLASSICUITag.cs" Condition="Exists('$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyCLASSICUITag/UsrRealtyCLASSICUITag.cs')" />
+		<Compile Include="$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyOfferTypeCLASSICUI/UsrRealtyOfferTypeCLASSICUI.cs" Condition="Exists('$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyOfferTypeCLASSICUI/UsrRealtyOfferTypeCLASSICUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyTypeCLASSICUI/UsrRealtyTypeCLASSICUI.cs" Condition="Exists('$(PkgPath)/UsrRealtyCLASSICUI/Schemas/UsrRealtyTypeCLASSICUI/UsrRealtyTypeCLASSICUI.cs')" />
+	</ItemGroup>
+</Project>
