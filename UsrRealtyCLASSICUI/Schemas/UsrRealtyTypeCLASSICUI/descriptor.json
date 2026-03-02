@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "46106a91-61e1-4b30-8284-8087f2c522db",
+    "Name": "UsrRealtyTypeCLASSICUI",
+    "ModifiedOnUtc": "\/Date(1772323323000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Realty Type CLASSICUI",
+    "DependsOn": []
+  }
+}

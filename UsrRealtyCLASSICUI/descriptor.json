@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "5e00e5de-b778-4f4c-b7a6-a2a5221e2698",
+    "Name": "UsrRealtyCLASSICUI",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1772322516000)\/",
+    "Maintainer": "Creatio",
+    "ProjectPath": "Files/UsrRealtyCLASSICUI.csproj",
+    "DependsOn": [
+      {
+        "UId": "fe1effeb-74f2-42c5-b5e1-dfe0313b86bf",
+        "PackageVersion": "7.8.0",
+        "Name": "Studio"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="UsrRealtyVisitClassic" />
+			<Item Name="Columns.UsrComment.Caption" Value="UsrComment" />
+			<Item Name="Columns.UsrEmployeeManager.Caption" Value="Manager" />
+			<Item Name="Columns.UsrParentRealty.Caption" Value="ParentRealty" />
+			<Item Name="Columns.UsrPotentialCustomer.Caption" Value="Customer" />
+			<Item Name="Columns.UsrVisitDateTime.Caption" Value="UsrVisitDateTime" />
+			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+		</Items>
+	</Group>
+</Resources>
