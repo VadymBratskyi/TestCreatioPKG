@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "4a2829fa-28f3-40b6-9fad-42c333619e2b",
+    "Name": "AvarageRealtyPricePage",
+    "ModifiedOnUtc": "\/Date(1772461353000)\/",
+    "Parent": {
+      "UId": "97e48060-149c-408f-9f17-8ba82c400249",
+      "Name": "PageWithAreaFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "AvarageRealtyPricePage"
+  }
+}

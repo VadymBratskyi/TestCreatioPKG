@@ -110,6 +110,67 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 			},
 			{
 				"operation": "insert",
+				"name": "Button_z6u1x2j",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_z6u1x2j_caption)#",
+					"color": "primary",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"menuItems": [],
+					"clickMode": "menu",
+					"icon": "process-button-icon"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_evfgrjv",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_evfgrjv_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "CalculateAverageRealtPrice",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "RealtyIdParameter"
+						}
+					},
+					"icon": "calculator-icon"
+				},
+				"parentName": "Button_z6u1x2j",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "RunWebServiceButton",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(RunWebServiceButton_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunWebServiceButtonRequest",
+						"params": {
+							"showSuccessMessage": true
+						}
+					},
+					"icon": "copilot-rewrite-friendly-icon"
+				},
+				"parentName": "Button_z6u1x2j",
+				"propertyName": "menuItems",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "Button_wsyfwha",
 				"values": {
 					"type": "crt.Button",
@@ -130,7 +191,7 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -729,35 +790,35 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 					"Name": {
 						"modelConfig": {
 							"path": "PDS.Name"
-						}						
+						}
 					},
 					"PDS_PriceUSD_ogyemaj": {
 						"modelConfig": {
 							"path": "PDS.PriceUSD"
 						},
 						"validators": {
-		                    "MyValidator": {
-		                        "type": "crt.MyValidator",
-		                        "params": {
-		                            "minValue": 30,
-		                            "message": "Price can't be less than 30.0"
-		                        }
-		                    }
-		                }
+							"MyValidator": {
+								"type": "crt.MyValidator",
+								"params": {
+									"minValue": 30,
+									"message": "Price can't be less than 30.0"
+								}
+							}
+						}
 					},
 					"PDS_AreaSQFT_0c711jy": {
 						"modelConfig": {
 							"path": "PDS.AreaSQFT"
 						},
 						"validators": {
-		                    "MyValidator": {
-		                        "type": "crt.MyValidator",
-		                        "params": {
-		                            "minValue": 10,
-		                            "message": "Area can't be less than 10.0"
-		                        }
-		                    }
-		                }
+							"MyValidator": {
+								"type": "crt.MyValidator",
+								"params": {
+									"minValue": 10,
+									"message": "Area can't be less than 10.0"
+								}
+							}
+						}
 					},
 					"PDS_Column10_r9v0e3x": {
 						"modelConfig": {
@@ -999,6 +1060,13 @@ define("RealtyFRUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCH
 						var commission = price * percent / 100;
 						request.$context.PDS_CommissionUSD_f6n8q44 = commission;
 					  }
+					return next?.handler(request);
+				}
+			},
+			{
+				request: "crt.RunWebServiceButtonRequest",
+				handler: async (request, next) => {
+					alert("web service btn");
 					return next?.handler(request);
 				}
 			}

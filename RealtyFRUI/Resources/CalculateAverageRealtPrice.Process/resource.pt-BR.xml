@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="pt-BR">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="AvarageRealtyPricePage" />
+			<Item Name="Caption" Value="Business process 2" />
+		</Items>
+	</Group>
+</Resources>

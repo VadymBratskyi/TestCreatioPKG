@@ -53,11 +53,6 @@
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
   "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
   "E6": true,
-  "E20": true,
-  "E12": {
-    "FB1": 3,
-    "FB2": "b70afa32-18c9-4e69-949e-89ddac35ca98"
-  },
   "E17": "PotentialCustomerId",
   "E18": "PotentialCustomerName"
 }
@@ -81,6 +76,7 @@
   "A5": "a6f79b4f-a7bd-4ade-be03-e862fdf4f909",
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
   "S4": "3cdc53c0-576c-443b-ad27-719798f7d89b",
+  "E2": 1,
   "E6": true,
   "E9": true,
   "E17": "ParentRealtyId",

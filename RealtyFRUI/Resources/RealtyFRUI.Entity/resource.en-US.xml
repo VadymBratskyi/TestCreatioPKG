@@ -12,6 +12,8 @@
 			<Item Name="Columns.PriceUSD.Caption" Value="Price, USD" />
 			<Item Name="Columns.RealtyOffer.Caption" Value="Offer type" />
 			<Item Name="Columns.Type.Caption" Value="Type" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_a0cbe9a9bca047b9b6f92c3fcf2fb15d.Caption" Value="LaneSet 1" />
+			<Item Name="EventsProcessSchema.LaneSets.LaneSet_a0cbe9a9bca047b9b6f92c3fcf2fb15d.Lanes.Lane_eedd9266c2014e51af141b35c1c291ad.Caption" Value="Lane 1" />
 		</Items>
 	</Group>
 </Resources>
