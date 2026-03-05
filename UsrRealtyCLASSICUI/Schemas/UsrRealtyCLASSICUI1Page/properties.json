@@ -1,6 +1,7 @@
 ﻿{
   "Properties": {
     "CreatedInVersion": "8.3.0.3074",
+    "OptionalProperties": "{}",
     "SchemaType": "EditViewModelSchema"
   }
 }

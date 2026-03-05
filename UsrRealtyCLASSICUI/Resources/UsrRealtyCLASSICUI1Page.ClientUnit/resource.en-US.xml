@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Edit page: &quot;Realty CLASSICUI&quot;" />
 			<Item Name="LocalizableStrings.MyButtonCaption.Value" Value="Click" />
+			<Item Name="LocalizableStrings.RunWebServiceButtonCaption.Value" Value="Web Service" />
 			<Item Name="LocalizableStrings.Tab9f6b74fcTabLabelTabCaption.Value" Value="VISITS" />
 			<Item Name="LocalizableStrings.UsrSchemad7786109Detail8484d283DetailCaptionOnPage.Value" Value="UsrRealtyVisitClassic" />
 		</Items>
